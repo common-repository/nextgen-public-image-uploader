@@ -1,0 +1,24 @@
+This plugin (NextGen Public Image Uploader) is copyrighted to Justin Lindsay at 
+http:www//amazinglyamusing.com. All rights reserved. Original Publish date 9/1/2013.  
+
+This plugin (Ngg Pup), and all code comprising this plugin are completely free to use under the following 
+conditions:
+
+- You may not use, in any way shape or form, any of the code included in this plugin to create  
+any other programs/compilations or plugins. 
+
+- You may alter any part of this plugin for your OWN PERSONAL USE, but may not upload or share
+altered code without prior consent. The exception to this being, if you are sharing a "fix" or 
+suggested "patches" while supporting other users of this plugin on public support forums. 
+
+- You may upload this plugin to any site, person or other electronic media, so long as it's done 
+so in its original unaltered state. Additionally, you may not charge or recieve any sort of 
+compensation for doing so. This includes monetary compensation, link trading, or anything else
+that would "benefit you directly or indirectly". 
+
+As well, any uploads MUST include a credit to the Author, the authors website as well as a link
+to the wordpress repository where this plugin can be downloaded. All uploads MUST contain the original
+unaltered files, including documentation. 
+
+
+

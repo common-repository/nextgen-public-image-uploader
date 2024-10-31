@@ -1,0 +1,32 @@
+Here are all of the features currently available with the plugin:
+
+- Thumbnail Generation. This is currently limited to JPG, GIF and PNG files, but plans
+  are to add BMP and other image types. 
+  
+- Direct to gallery upload. For example [ngg_public_uploader gid="3"] would create an upload
+  page that sends all uploads directly to gallery 3.
+  
+- Upload to queue. Currently, all files using [ngg_public_uploader] will go into an upload
+  directory as set in the settings page, and then put into a moderation queue if the queue is enabled. 
+  
+- User role limits. Each role can be granted access to the upload pages, as well as the moderaiton queue.
+      
+
+--------------------------------------------------------------------------------
+
+Planned Features:
+
+- Queue status notification. I plan on adding a Status window to the settings page on the backend,
+  indicating how many files are currently awaiting moderation. 
+ 
+- Upload notification. When uploads are processed, an optional e-mail can be sent to notify you
+  that files have been uploaded.
+  
+- More work to be done on the thumbanil generation, adding more file types and possibly improving
+  the general process. 
+  
+- User tagging system. Currently, the tagging system is disabled, but I plan on adding a system 
+  where the moderation queue can facilitate adding image tags on the front end. 
+  
+  
+

@@ -1,0 +1,32 @@
+Welcome to the setup guide for the NGG Pup image uploader plugin. 
+
+Getting started is pretty simple. If this is your first time running 
+this plugin, you will want to head into the settings page in your wordpress
+admin page. Once configured to your liking, there are 3 short codes that can 
+be used. 
+
+You put these shortcodes on any page you want the function to show up
+on. 
+
+- [NGG_pup_Moderation] Will show the moderation queue page(if enabled).
+The moderation queue is an optional "buffer" where you can have all uploaded
+images stored until they are approved. The moderation page will show all images
+currently held in the queue, and give anyone with access the ability to delete
+or move all images being held. 
+
+- [ngg_public_uploader] Will create a standalone image uploader. If the moderation
+queue feature is enabled, all uploads using this will be stored in the queue. If
+the moderation queue is NOT enabled, all files will just be stored in the folder
+you set in the options page, and nothing more will happen with them. This does
+NOT create thumbnails. 
+
+- [ngg_public_uploader gid="x"] where x is the Gallery Id you want images uploaded
+to. Using this option, all images uploaded on this page will automatically bypass
+the moderation queue, and be moved to the gallery you specify. This will automatically
+update NextGen gallerys database to include the files, and will also automatically
+create thumbnails and place them in the appropriate folder. 
+
+The great thing about this shortcode is, it can be used multiple times. For example,
+if you have multiple galleries, you can make multiple pages with ths shortcode, each
+with the GID of that gallery, and each page will upload to that gallery.  
+

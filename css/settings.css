@@ -1,0 +1,31 @@
+#NGGpup_textbox {
+line-height:1em;
+height:1em;
+margin-left:3px;
+border:1px solid #c4c4c4;
+margin-bottom:3px;
+}
+.options_checkbox_wrap {
+Width:25%;
+float:left;
+margin:5px;
+min-width:100px;
+}
+.options_box, .selection_box {
+background: #eee;
+border: 2px solid #B9B9B9;
+border-radius:3px;
+padding:10px;
+float:left;
+max-width:80%;
+}
+.selection_box {
+margin-top:10px;
+}
+.options_box_header {
+float:left;
+font:bold 1.2em san-seriff;
+width:100%;
+border-bottom:1px solid #c4c4c4;
+margin-bottom:4px;
+}

@@ -1,0 +1,28 @@
+Validation is currently done through a multi-step system.
+
+! denotes a check that's not fully implemented yet. 
+
+- Checking to make sure that the extension of the file is in the allowed list ie: JPG, BMP, PNG etc.
+
+- Checks file size against settings, to ensure files over the set size limit are blocked. 
+
+- Checks the file to make sure it's under the size limit defined in the options.
+
+- Makes sure that the Mime Type of the uploaded file is an image. This also includes an on the fly
+  check to make sure the extension of the file uploaded matches the true image type based on
+  the mime info. For example, if the file uploaded is image.jpg, but the mime info indicates it's
+  actually a gif file, this catches it and changes the extension to match what's detected. 
+
+- Checks to make sure the file being uploaded is actually an image file. For example, if someone
+  uploads an image as image.php.jpg, but it's actually a PHP file, the validation system will catch
+  it and block it. It's surprising just how many image uploaders I've seen that don't do this check.
+
+! Logs user name and uploaders IP address.
+ 
+! Checks are done against User name and IP to ensure blacklisted Users/IPS can't upload. 
+ 
+- makes sure that there isn't already a file with the same name in the directory it's going to. 
+
+Only after a file passes ALL checks, does it get moved and stored in the DB.
+
+  

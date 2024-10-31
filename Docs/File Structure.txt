@@ -1,0 +1,22 @@
+Ngg_uploader.php - The main core of the program. Handles CSS enqueing and menu building for 
+				   the Uploader portion of the plugin. 
+
+filefunc.php - Contains all the file manipulation functions. This includes building file directories, 
+             url and Directory paths, moving file functions and pretty much any functions
+             that deal with file manipulation.
+             
+Install.php -  This only contains the functions for initializing the function on first run, as well
+              as first run DB creation as well as uninstall function. Any DB updates between
+              plugin versions will be done in here. 
+              
+makethumb.php- My not so awesome, super hacky attempt at an on the fly thumbnail generator. Major
+			  thanks to Ritesh Waingankar from http://www.stealthcentral.com for his help with
+			  developing this portion, as without him I would have had a LOT of headaches trying
+			  to build it. 
+			  
+Moderation.php - This file deals with all moderation queue related building. Primarily the menu
+                 building functions as well as organizing and processing the results after 
+                 validation is done.  			  			  
+
+Validation.php - All sanitizing and file validation functions are here. Mime type checking, user
+			     input validation etc.

@@ -1,0 +1,17 @@
+Installation of this plugin is exactly the same as any other wordpress plugin. If you 
+are uplading via your wordpress admin panel, simply upload the ngg-pup.rar file
+through the client and wordpress will automatically unpack the file. Once wordpress
+is done, you are given the option of activating it. Simply press activate, and voila
+you are done. 
+
+If you are uploading the file manually, unpack the ngg-pup.rar file. This will create
+a folder called Ngg_pup. Take this folder, and manually it via FTP or whatever method
+you prefer, and store it in your plugins folder which are typically stored in 
+your-website/wp-content/plugins. Once uploaded, you should see:
+your-website/wp-content/plugins/Ngg_pup. 
+
+Once the plugin is manually uploaded, go into your plugin manager page in wordpres
+and manually activate the plugin by clicking on the activate link. 
+
+It's recommended that after activation, you go to the settings page and 
+configure the plugin to what you want.  
